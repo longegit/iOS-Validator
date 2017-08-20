@@ -63,4 +63,7 @@ fastlane/test_output
 iOSInjectionProject/
 
 .DS_Store
-IGValidator.xcodeproj/project.xcworkspace/
+IGValidatorDemo.xcodeproj/project.xcworkspace/
+IGValidatorDemo.xcworkspace/
+Pods/
+Podfile.lock

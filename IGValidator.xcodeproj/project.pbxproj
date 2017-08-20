@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD5CD6D31F49807000831C61 /* IGValidatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5CD6D21F49807000831C61 /* IGValidatorTests.m */; };
+		BD5CD6DE1F49807000831C61 /* IGValidatorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5CD6DD1F49807000831C61 /* IGValidatorUITests.m */; };
+		BD5CD71E1F4981BD00831C61 /* IGChinesePhoneNumberValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5CD70B1F4981BD00831C61 /* IGChinesePhoneNumberValidator.m */; };
+		BD5CD71F1F4981BD00831C61 /* IGEmailValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5CD70D1F4981BD00831C61 /* IGEmailValidator.m */; };
+		BD5CD7201F4981BD00831C61 /* IGMaxLengthValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5CD70F1F4981BD00831C61 /* IGMaxLengthValidator.m */; };
+		BD5CD7211F4981BD00831C61 /* IGMinLengthValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5CD7111F4981BD00831C61 /* IGMinLengthValidator.m */; };
+		BD5CD7221F4981BD00831C61 /* IGNumericValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5CD7131F4981BD00831C61 /* IGNumericValidator.m */; };
+		BD5CD7231F4981BD00831C61 /* IGRangeValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5CD7151F4981BD00831C61 /* IGRangeValidator.m */; };
+		BD5CD7241F4981BD00831C61 /* IGRegexpValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5CD7171F4981BD00831C61 /* IGRegexpValidator.m */; };
+		BD5CD7251F4981BD00831C61 /* IGRequireValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5CD7191F4981BD00831C61 /* IGRequireValidator.m */; };
+		BD5CD7261F4981BD00831C61 /* IGValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5CD71B1F4981BD00831C61 /* IGValidator.m */; };
+		BD5CD7271F4981BD00831C61 /* IGValidators.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5CD71D1F4981BD00831C61 /* IGValidators.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD5CD6CF1F49807000831C61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD5CD6AD1F49807000831C61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD5CD6B41F49807000831C61;
+			remoteInfo = IGValidator;
+		};
+		BD5CD6DA1F49807000831C61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD5CD6AD1F49807000831C61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD5CD6B41F49807000831C61;
+			remoteInfo = IGValidator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD5CD6B51F49807000831C61 /* IGValidator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IGValidator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD5CD6CE1F49807000831C61 /* IGValidatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IGValidatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD5CD6D21F49807000831C61 /* IGValidatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IGValidatorTests.m; sourceTree = "<group>"; };
+		BD5CD6D41F49807000831C61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD5CD6D91F49807000831C61 /* IGValidatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IGValidatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD5CD6DD1F49807000831C61 /* IGValidatorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IGValidatorUITests.m; sourceTree = "<group>"; };
+		BD5CD6DF1F49807000831C61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD5CD70A1F4981BD00831C61 /* IGChinesePhoneNumberValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGChinesePhoneNumberValidator.h; sourceTree = "<group>"; };
+		BD5CD70B1F4981BD00831C61 /* IGChinesePhoneNumberValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGChinesePhoneNumberValidator.m; sourceTree = "<group>"; };
+		BD5CD70C1F4981BD00831C61 /* IGEmailValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGEmailValidator.h; sourceTree = "<group>"; };
+		BD5CD70D1F4981BD00831C61 /* IGEmailValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGEmailValidator.m; sourceTree = "<group>"; };
+		BD5CD70E1F4981BD00831C61 /* IGMaxLengthValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGMaxLengthValidator.h; sourceTree = "<group>"; };
+		BD5CD70F1F4981BD00831C61 /* IGMaxLengthValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGMaxLengthValidator.m; sourceTree = "<group>"; };
+		BD5CD7101F4981BD00831C61 /* IGMinLengthValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGMinLengthValidator.h; sourceTree = "<group>"; };
+		BD5CD7111F4981BD00831C61 /* IGMinLengthValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGMinLengthValidator.m; sourceTree = "<group>"; };
+		BD5CD7121F4981BD00831C61 /* IGNumericValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGNumericValidator.h; sourceTree = "<group>"; };
+		BD5CD7131F4981BD00831C61 /* IGNumericValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGNumericValidator.m; sourceTree = "<group>"; };
+		BD5CD7141F4981BD00831C61 /* IGRangeValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGRangeValidator.h; sourceTree = "<group>"; };
+		BD5CD7151F4981BD00831C61 /* IGRangeValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGRangeValidator.m; sourceTree = "<group>"; };
+		BD5CD7161F4981BD00831C61 /* IGRegexpValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGRegexpValidator.h; sourceTree = "<group>"; };
+		BD5CD7171F4981BD00831C61 /* IGRegexpValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGRegexpValidator.m; sourceTree = "<group>"; };
+		BD5CD7181F4981BD00831C61 /* IGRequireValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGRequireValidator.h; sourceTree = "<group>"; };
+		BD5CD7191F4981BD00831C61 /* IGRequireValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGRequireValidator.m; sourceTree = "<group>"; };
+		BD5CD71A1F4981BD00831C61 /* IGValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGValidator.h; sourceTree = "<group>"; };
+		BD5CD71B1F4981BD00831C61 /* IGValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGValidator.m; sourceTree = "<group>"; };
+		BD5CD71C1F4981BD00831C61 /* IGValidators.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGValidators.h; sourceTree = "<group>"; };
+		BD5CD71D1F4981BD00831C61 /* IGValidators.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGValidators.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD5CD6B21F49807000831C61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD5CD6CB1F49807000831C61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD5CD6D61F49807000831C61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD5CD6AC1F49807000831C61 = {
+			isa = PBXGroup;
+			children = (
+				BD5CD6B71F49807000831C61 /* IGValidator */,
+				BD5CD6D11F49807000831C61 /* IGValidatorTests */,
+				BD5CD6DC1F49807000831C61 /* IGValidatorUITests */,
+				BD5CD6B61F49807000831C61 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD5CD6B61F49807000831C61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD5CD6B51F49807000831C61 /* IGValidator.app */,
+				BD5CD6CE1F49807000831C61 /* IGValidatorTests.xctest */,
+				BD5CD6D91F49807000831C61 /* IGValidatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD5CD6B71F49807000831C61 /* IGValidator */ = {
+			isa = PBXGroup;
+			children = (
+				BD5CD70A1F4981BD00831C61 /* IGChinesePhoneNumberValidator.h */,
+				BD5CD70B1F4981BD00831C61 /* IGChinesePhoneNumberValidator.m */,
+				BD5CD70C1F4981BD00831C61 /* IGEmailValidator.h */,
+				BD5CD70D1F4981BD00831C61 /* IGEmailValidator.m */,
+				BD5CD70E1F4981BD00831C61 /* IGMaxLengthValidator.h */,
+				BD5CD70F1F4981BD00831C61 /* IGMaxLengthValidator.m */,
+				BD5CD7101F4981BD00831C61 /* IGMinLengthValidator.h */,
+				BD5CD7111F4981BD00831C61 /* IGMinLengthValidator.m */,
+				BD5CD7121F4981BD00831C61 /* IGNumericValidator.h */,
+				BD5CD7131F4981BD00831C61 /* IGNumericValidator.m */,
+				BD5CD7141F4981BD00831C61 /* IGRangeValidator.h */,
+				BD5CD7151F4981BD00831C61 /* IGRangeValidator.m */,
+				BD5CD7161F4981BD00831C61 /* IGRegexpValidator.h */,
+				BD5CD7171F4981BD00831C61 /* IGRegexpValidator.m */,
+				BD5CD7181F4981BD00831C61 /* IGRequireValidator.h */,
+				BD5CD7191F4981BD00831C61 /* IGRequireValidator.m */,
+				BD5CD71A1F4981BD00831C61 /* IGValidator.h */,
+				BD5CD71B1F4981BD00831C61 /* IGValidator.m */,
+				BD5CD71C1F4981BD00831C61 /* IGValidators.h */,
+				BD5CD71D1F4981BD00831C61 /* IGValidators.m */,
+			);
+			path = IGValidator;
+			sourceTree = "<group>";
+		};
+		BD5CD6D11F49807000831C61 /* IGValidatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD5CD6D21F49807000831C61 /* IGValidatorTests.m */,
+				BD5CD6D41F49807000831C61 /* Info.plist */,
+			);
+			path = IGValidatorTests;
+			sourceTree = "<group>";
+		};
+		BD5CD6DC1F49807000831C61 /* IGValidatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD5CD6DD1F49807000831C61 /* IGValidatorUITests.m */,
+				BD5CD6DF1F49807000831C61 /* Info.plist */,
+			);
+			path = IGValidatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD5CD6B41F49807000831C61 /* IGValidator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD5CD6E21F49807000831C61 /* Build configuration list for PBXNativeTarget "IGValidator" */;
+			buildPhases = (
+				BD5CD6B11F49807000831C61 /* Sources */,
+				BD5CD6B21F49807000831C61 /* Frameworks */,
+				BD5CD6B31F49807000831C61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IGValidator;
+			productName = IGValidator;
+			productReference = BD5CD6B51F49807000831C61 /* IGValidator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD5CD6CD1F49807000831C61 /* IGValidatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD5CD6E51F49807000831C61 /* Build configuration list for PBXNativeTarget "IGValidatorTests" */;
+			buildPhases = (
+				BD5CD6CA1F49807000831C61 /* Sources */,
+				BD5CD6CB1F49807000831C61 /* Frameworks */,
+				BD5CD6CC1F49807000831C61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD5CD6D01F49807000831C61 /* PBXTargetDependency */,
+			);
+			name = IGValidatorTests;
+			productName = IGValidatorTests;
+			productReference = BD5CD6CE1F49807000831C61 /* IGValidatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD5CD6D81F49807000831C61 /* IGValidatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD5CD6E81F49807000831C61 /* Build configuration list for PBXNativeTarget "IGValidatorUITests" */;
+			buildPhases = (
+				BD5CD6D51F49807000831C61 /* Sources */,
+				BD5CD6D61F49807000831C61 /* Frameworks */,
+				BD5CD6D71F49807000831C61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD5CD6DB1F49807000831C61 /* PBXTargetDependency */,
+			);
+			name = IGValidatorUITests;
+			productName = IGValidatorUITests;
+			productReference = BD5CD6D91F49807000831C61 /* IGValidatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD5CD6AD1F49807000831C61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = itgoo;
+				TargetAttributes = {
+					BD5CD6B41F49807000831C61 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					BD5CD6CD1F49807000831C61 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BD5CD6B41F49807000831C61;
+					};
+					BD5CD6D81F49807000831C61 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BD5CD6B41F49807000831C61;
+					};
+				};
+			};
+			buildConfigurationList = BD5CD6B01F49807000831C61 /* Build configuration list for PBXProject "IGValidator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD5CD6AC1F49807000831C61;
+			productRefGroup = BD5CD6B61F49807000831C61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD5CD6B41F49807000831C61 /* IGValidator */,
+				BD5CD6CD1F49807000831C61 /* IGValidatorTests */,
+				BD5CD6D81F49807000831C61 /* IGValidatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD5CD6B31F49807000831C61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD5CD6CC1F49807000831C61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD5CD6D71F49807000831C61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD5CD6B11F49807000831C61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD5CD71E1F4981BD00831C61 /* IGChinesePhoneNumberValidator.m in Sources */,
+				BD5CD7241F4981BD00831C61 /* IGRegexpValidator.m in Sources */,
+				BD5CD7271F4981BD00831C61 /* IGValidators.m in Sources */,
+				BD5CD7261F4981BD00831C61 /* IGValidator.m in Sources */,
+				BD5CD7251F4981BD00831C61 /* IGRequireValidator.m in Sources */,
+				BD5CD7211F4981BD00831C61 /* IGMinLengthValidator.m in Sources */,
+				BD5CD71F1F4981BD00831C61 /* IGEmailValidator.m in Sources */,
+				BD5CD7201F4981BD00831C61 /* IGMaxLengthValidator.m in Sources */,
+				BD5CD7231F4981BD00831C61 /* IGRangeValidator.m in Sources */,
+				BD5CD7221F4981BD00831C61 /* IGNumericValidator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD5CD6CA1F49807000831C61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD5CD6D31F49807000831C61 /* IGValidatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD5CD6D51F49807000831C61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD5CD6DE1F49807000831C61 /* IGValidatorUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD5CD6D01F49807000831C61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD5CD6B41F49807000831C61 /* IGValidator */;
+			targetProxy = BD5CD6CF1F49807000831C61 /* PBXContainerItemProxy */;
+		};
+		BD5CD6DB1F49807000831C61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD5CD6B41F49807000831C61 /* IGValidator */;
+			targetProxy = BD5CD6DA1F49807000831C61 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BD5CD6E01F49807000831C61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD5CD6E11F49807000831C61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD5CD6E31F49807000831C61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = IGValidator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.itgoo.IGValidator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BD5CD6E41F49807000831C61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = IGValidator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.itgoo.IGValidator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BD5CD6E61F49807000831C61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = IGValidatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.itgoo.IGValidatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IGValidator.app/IGValidator";
+			};
+			name = Debug;
+		};
+		BD5CD6E71F49807000831C61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = IGValidatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.itgoo.IGValidatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IGValidator.app/IGValidator";
+			};
+			name = Release;
+		};
+		BD5CD6E91F49807000831C61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = IGValidatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.itgoo.IGValidatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = IGValidator;
+			};
+			name = Debug;
+		};
+		BD5CD6EA1F49807000831C61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = IGValidatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.itgoo.IGValidatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = IGValidator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD5CD6B01F49807000831C61 /* Build configuration list for PBXProject "IGValidator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD5CD6E01F49807000831C61 /* Debug */,
+				BD5CD6E11F49807000831C61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD5CD6E21F49807000831C61 /* Build configuration list for PBXNativeTarget "IGValidator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD5CD6E31F49807000831C61 /* Debug */,
+				BD5CD6E41F49807000831C61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD5CD6E51F49807000831C61 /* Build configuration list for PBXNativeTarget "IGValidatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD5CD6E61F49807000831C61 /* Debug */,
+				BD5CD6E71F49807000831C61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD5CD6E81F49807000831C61 /* Build configuration list for PBXNativeTarget "IGValidatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD5CD6E91F49807000831C61 /* Debug */,
+				BD5CD6EA1F49807000831C61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD5CD6AD1F49807000831C61 /* Project object */;
+}

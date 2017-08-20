@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD5CD7361F49823300831C61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5CD7351F49823300831C61 /* main.m */; };
+		BD5CD7391F49823300831C61 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5CD7381F49823300831C61 /* AppDelegate.m */; };
+		BD5CD73C1F49823300831C61 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5CD73B1F49823300831C61 /* ViewController.m */; };
+		BD5CD73F1F49823300831C61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD5CD73D1F49823300831C61 /* Main.storyboard */; };
+		BD5CD7411F49823300831C61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD5CD7401F49823300831C61 /* Assets.xcassets */; };
+		BD5CD7441F49823300831C61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD5CD7421F49823300831C61 /* LaunchScreen.storyboard */; };
+		BD5CD74F1F49823300831C61 /* IGValidatorDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5CD74E1F49823300831C61 /* IGValidatorDemoTests.m */; };
+		BD5CD75A1F49823300831C61 /* IGValidatorDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5CD7591F49823300831C61 /* IGValidatorDemoUITests.m */; };
+		BD5CD7681F49832200831C61 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = BD5CD7671F49832200831C61 /* Podfile */; };
+		C9DECF201F0A3B4B08CE678A /* libPods-IGValidatorDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F688FC67EE87A9A746471B3E /* libPods-IGValidatorDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD5CD74B1F49823300831C61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD5CD7291F49823300831C61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD5CD7301F49823300831C61;
+			remoteInfo = IGValidatorDemo;
+		};
+		BD5CD7561F49823300831C61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD5CD7291F49823300831C61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD5CD7301F49823300831C61;
+			remoteInfo = IGValidatorDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		903D9CFCD58F30362B93CAE0 /* Pods-IGValidatorDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IGValidatorDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IGValidatorDemo/Pods-IGValidatorDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		BD5CD7311F49823300831C61 /* IGValidatorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IGValidatorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD5CD7351F49823300831C61 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BD5CD7371F49823300831C61 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BD5CD7381F49823300831C61 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BD5CD73A1F49823300831C61 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BD5CD73B1F49823300831C61 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BD5CD73E1F49823300831C61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD5CD7401F49823300831C61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD5CD7431F49823300831C61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD5CD7451F49823300831C61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD5CD74A1F49823300831C61 /* IGValidatorDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IGValidatorDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD5CD74E1F49823300831C61 /* IGValidatorDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IGValidatorDemoTests.m; sourceTree = "<group>"; };
+		BD5CD7501F49823300831C61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD5CD7551F49823300831C61 /* IGValidatorDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IGValidatorDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD5CD7591F49823300831C61 /* IGValidatorDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IGValidatorDemoUITests.m; sourceTree = "<group>"; };
+		BD5CD75B1F49823300831C61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD5CD7671F49832200831C61 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		C25EC14241D9150DD5C8DD01 /* Pods-IGValidatorDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IGValidatorDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-IGValidatorDemo/Pods-IGValidatorDemo.release.xcconfig"; sourceTree = "<group>"; };
+		F688FC67EE87A9A746471B3E /* libPods-IGValidatorDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IGValidatorDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD5CD72E1F49823300831C61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9DECF201F0A3B4B08CE678A /* libPods-IGValidatorDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD5CD7471F49823300831C61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD5CD7521F49823300831C61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47234A6CEDF026B0005D08BF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				903D9CFCD58F30362B93CAE0 /* Pods-IGValidatorDemo.debug.xcconfig */,
+				C25EC14241D9150DD5C8DD01 /* Pods-IGValidatorDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		55A9AC916E904F119C581684 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F688FC67EE87A9A746471B3E /* libPods-IGValidatorDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD5CD7281F49823300831C61 = {
+			isa = PBXGroup;
+			children = (
+				BD5CD7671F49832200831C61 /* Podfile */,
+				BD5CD7331F49823300831C61 /* IGValidatorDemo */,
+				BD5CD74D1F49823300831C61 /* IGValidatorDemoTests */,
+				BD5CD7581F49823300831C61 /* IGValidatorDemoUITests */,
+				BD5CD7321F49823300831C61 /* Products */,
+				47234A6CEDF026B0005D08BF /* Pods */,
+				55A9AC916E904F119C581684 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BD5CD7321F49823300831C61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD5CD7311F49823300831C61 /* IGValidatorDemo.app */,
+				BD5CD74A1F49823300831C61 /* IGValidatorDemoTests.xctest */,
+				BD5CD7551F49823300831C61 /* IGValidatorDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD5CD7331F49823300831C61 /* IGValidatorDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BD5CD7371F49823300831C61 /* AppDelegate.h */,
+				BD5CD7381F49823300831C61 /* AppDelegate.m */,
+				BD5CD73A1F49823300831C61 /* ViewController.h */,
+				BD5CD73B1F49823300831C61 /* ViewController.m */,
+				BD5CD73D1F49823300831C61 /* Main.storyboard */,
+				BD5CD7401F49823300831C61 /* Assets.xcassets */,
+				BD5CD7421F49823300831C61 /* LaunchScreen.storyboard */,
+				BD5CD7451F49823300831C61 /* Info.plist */,
+				BD5CD7341F49823300831C61 /* Supporting Files */,
+			);
+			path = IGValidatorDemo;
+			sourceTree = "<group>";
+		};
+		BD5CD7341F49823300831C61 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD5CD7351F49823300831C61 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BD5CD74D1F49823300831C61 /* IGValidatorDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD5CD74E1F49823300831C61 /* IGValidatorDemoTests.m */,
+				BD5CD7501F49823300831C61 /* Info.plist */,
+			);
+			path = IGValidatorDemoTests;
+			sourceTree = "<group>";
+		};
+		BD5CD7581F49823300831C61 /* IGValidatorDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD5CD7591F49823300831C61 /* IGValidatorDemoUITests.m */,
+				BD5CD75B1F49823300831C61 /* Info.plist */,
+			);
+			path = IGValidatorDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD5CD7301F49823300831C61 /* IGValidatorDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD5CD75E1F49823300831C61 /* Build configuration list for PBXNativeTarget "IGValidatorDemo" */;
+			buildPhases = (
+				E41716D0CBE3F41C8470E1BD /* [CP] Check Pods Manifest.lock */,
+				BD5CD72D1F49823300831C61 /* Sources */,
+				BD5CD72E1F49823300831C61 /* Frameworks */,
+				BD5CD72F1F49823300831C61 /* Resources */,
+				AD25E5B2005B1B41CB035A95 /* [CP] Embed Pods Frameworks */,
+				C671089285838AC83E7D923E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IGValidatorDemo;
+			productName = IGValidatorDemo;
+			productReference = BD5CD7311F49823300831C61 /* IGValidatorDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD5CD7491F49823300831C61 /* IGValidatorDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD5CD7611F49823300831C61 /* Build configuration list for PBXNativeTarget "IGValidatorDemoTests" */;
+			buildPhases = (
+				BD5CD7461F49823300831C61 /* Sources */,
+				BD5CD7471F49823300831C61 /* Frameworks */,
+				BD5CD7481F49823300831C61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD5CD74C1F49823300831C61 /* PBXTargetDependency */,
+			);
+			name = IGValidatorDemoTests;
+			productName = IGValidatorDemoTests;
+			productReference = BD5CD74A1F49823300831C61 /* IGValidatorDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD5CD7541F49823300831C61 /* IGValidatorDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD5CD7641F49823300831C61 /* Build configuration list for PBXNativeTarget "IGValidatorDemoUITests" */;
+			buildPhases = (
+				BD5CD7511F49823300831C61 /* Sources */,
+				BD5CD7521F49823300831C61 /* Frameworks */,
+				BD5CD7531F49823300831C61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD5CD7571F49823300831C61 /* PBXTargetDependency */,
+			);
+			name = IGValidatorDemoUITests;
+			productName = IGValidatorDemoUITests;
+			productReference = BD5CD7551F49823300831C61 /* IGValidatorDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD5CD7291F49823300831C61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = itgoo;
+				TargetAttributes = {
+					BD5CD7301F49823300831C61 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					BD5CD7491F49823300831C61 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BD5CD7301F49823300831C61;
+					};
+					BD5CD7541F49823300831C61 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BD5CD7301F49823300831C61;
+					};
+				};
+			};
+			buildConfigurationList = BD5CD72C1F49823300831C61 /* Build configuration list for PBXProject "IGValidatorDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD5CD7281F49823300831C61;
+			productRefGroup = BD5CD7321F49823300831C61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD5CD7301F49823300831C61 /* IGValidatorDemo */,
+				BD5CD7491F49823300831C61 /* IGValidatorDemoTests */,
+				BD5CD7541F49823300831C61 /* IGValidatorDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD5CD72F1F49823300831C61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD5CD7441F49823300831C61 /* LaunchScreen.storyboard in Resources */,
+				BD5CD7411F49823300831C61 /* Assets.xcassets in Resources */,
+				BD5CD7681F49832200831C61 /* Podfile in Resources */,
+				BD5CD73F1F49823300831C61 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD5CD7481F49823300831C61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD5CD7531F49823300831C61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AD25E5B2005B1B41CB035A95 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IGValidatorDemo/Pods-IGValidatorDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C671089285838AC83E7D923E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IGValidatorDemo/Pods-IGValidatorDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E41716D0CBE3F41C8470E1BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD5CD72D1F49823300831C61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD5CD73C1F49823300831C61 /* ViewController.m in Sources */,
+				BD5CD7391F49823300831C61 /* AppDelegate.m in Sources */,
+				BD5CD7361F49823300831C61 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD5CD7461F49823300831C61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD5CD74F1F49823300831C61 /* IGValidatorDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD5CD7511F49823300831C61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD5CD75A1F49823300831C61 /* IGValidatorDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD5CD74C1F49823300831C61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD5CD7301F49823300831C61 /* IGValidatorDemo */;
+			targetProxy = BD5CD74B1F49823300831C61 /* PBXContainerItemProxy */;
+		};
+		BD5CD7571F49823300831C61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD5CD7301F49823300831C61 /* IGValidatorDemo */;
+			targetProxy = BD5CD7561F49823300831C61 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD5CD73D1F49823300831C61 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD5CD73E1F49823300831C61 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD5CD7421F49823300831C61 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD5CD7431F49823300831C61 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD5CD75C1F49823300831C61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD5CD75D1F49823300831C61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD5CD75F1F49823300831C61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 903D9CFCD58F30362B93CAE0 /* Pods-IGValidatorDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IGValidatorDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.itgoo.IGValidatorDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BD5CD7601F49823300831C61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C25EC14241D9150DD5C8DD01 /* Pods-IGValidatorDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IGValidatorDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.itgoo.IGValidatorDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BD5CD7621F49823300831C61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = IGValidatorDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.itgoo.IGValidatorDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IGValidatorDemo.app/IGValidatorDemo";
+			};
+			name = Debug;
+		};
+		BD5CD7631F49823300831C61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = IGValidatorDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.itgoo.IGValidatorDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IGValidatorDemo.app/IGValidatorDemo";
+			};
+			name = Release;
+		};
+		BD5CD7651F49823300831C61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = IGValidatorDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.itgoo.IGValidatorDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = IGValidatorDemo;
+			};
+			name = Debug;
+		};
+		BD5CD7661F49823300831C61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = IGValidatorDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.itgoo.IGValidatorDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = IGValidatorDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD5CD72C1F49823300831C61 /* Build configuration list for PBXProject "IGValidatorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD5CD75C1F49823300831C61 /* Debug */,
+				BD5CD75D1F49823300831C61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD5CD75E1F49823300831C61 /* Build configuration list for PBXNativeTarget "IGValidatorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD5CD75F1F49823300831C61 /* Debug */,
+				BD5CD7601F49823300831C61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD5CD7611F49823300831C61 /* Build configuration list for PBXNativeTarget "IGValidatorDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD5CD7621F49823300831C61 /* Debug */,
+				BD5CD7631F49823300831C61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD5CD7641F49823300831C61 /* Build configuration list for PBXNativeTarget "IGValidatorDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD5CD7651F49823300831C61 /* Debug */,
+				BD5CD7661F49823300831C61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD5CD7291F49823300831C61 /* Project object */;
+}
