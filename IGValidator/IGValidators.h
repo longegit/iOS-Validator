@@ -13,6 +13,8 @@
 
 @interface IGValidators : NSObject
 
+@property (nonatomic, strong) IGValidator *errorValidator;
+
 - (void)putWithView:(UIView *)view validators:(NSArray *)validators;
 - (BOOL)validateBlockWithSuccess:(void (^)())success failure:(void (^)(IGValidator *))failure;
 

@@ -34,11 +34,13 @@
 }
 
 - (BOOL)validateBlockWithSuccess:(void (^)())success failure:(void (^)(IGValidator *))failure {
+    _errorValidator = nil;
     IGValidator *failedValidator = [self validateAllRules];
     if (failedValidator == nil) {
         !success? : success();
         return YES;
     } else {
+        _errorValidator = failedValidator;
         !failure? : failure(failedValidator);
         return NO;
     }
