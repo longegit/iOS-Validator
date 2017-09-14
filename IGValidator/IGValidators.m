@@ -33,22 +33,44 @@
     [self.rules addObject:rule];
 }
 
-- (BOOL)validateBlockWithSuccess:(void (^)())success failure:(void (^)(IGValidator *))failure {
-    _errorValidator = nil;
+- (IGValidator *)validateBlockWithSuccess:(void (^)())success failure:(void (^)(IGValidator *))failure {
     IGValidator *failedValidator = [self validateAllRules];
     if (failedValidator == nil) {
         !success? : success();
-        return YES;
     } else {
-        _errorValidator = failedValidator;
         !failure? : failure(failedValidator);
-        return NO;
     }
+    return failedValidator;
+}
+
+- (IGValidator *)validateView:(UIView *)view success:(void (^)())success failure:(void (^)(IGValidator *))failure {
+    IGValidator *failedValidator = [self validateView:view];
+    if (failedValidator == nil) {
+        !success? : success();
+    } else {
+        !failure? : failure(failedValidator);
+    }
+    return failedValidator;
 }
 
 - (IGValidator *)validateAllRules {
     for (IGRule *rule in self.rules) {
         if (rule == nil) {
+            continue;
+        }
+        for (IGValidator *validator in rule.validators) {
+            if (![validator isValid:rule.view]) {
+                return validator;
+            }
+        }
+    }
+    
+    return nil;
+}
+
+- (IGValidator *)validateView:(UIView *)view {
+    for (IGRule *rule in self.rules) {
+        if (rule == nil || view != rule.view) {
             continue;
         }
         for (IGValidator *validator in rule.validators) {
