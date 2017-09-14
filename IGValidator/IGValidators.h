@@ -16,7 +16,8 @@
 @property (nonatomic, strong) IGValidator *errorValidator;
 
 - (void)putWithView:(UIView *)view validators:(NSArray *)validators;
-- (BOOL)validateBlockWithSuccess:(void (^)())success failure:(void (^)(IGValidator *))failure;
+- (IGValidator *)validateBlockWithSuccess:(void (^)())success failure:(void (^)(IGValidator *))failure;
+- (IGValidator *)validateView:(UIView *)view success:(void (^)())success failure:(void (^)(IGValidator *))failure;
 
 @end
 
