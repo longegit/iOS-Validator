@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "IGValidator"
-  s.version      = "0.0.1"
+  s.version      = "0.0.3"
   s.summary      = "ios text validator."
 
   # This description is used to generate tags and improve search results.
