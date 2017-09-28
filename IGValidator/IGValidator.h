@@ -14,7 +14,7 @@
 
 - (id)initWithMessage:(NSString *)message;
 
-- (BOOL)condition:(NSString *)value;
+- (BOOL)condition:(id)value;
 
 - (BOOL)isValid:(UIView *)view;
 

@@ -18,8 +18,12 @@
     return self;
 }
 
-- (BOOL)condition:(NSString *)value {
-    return value.length != 0;
+- (BOOL)condition:(id)value {
+    if ([value isKindOfClass:[NSString class]]) {
+        return [[value valueForKey:@"length"] integerValue] != 0;
+    } else {
+        return value != nil;
+    }
 }
 
 @end

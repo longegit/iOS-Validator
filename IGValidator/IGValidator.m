@@ -26,15 +26,24 @@
 
 - (BOOL)isValid:(UIView *)view {
     NSAssert(view != nil, @"view is nil");
-    NSString *value = [view valueForKey:@"text"];
-    if (value != nil) {
-        return [self condition:value];
+    if ([view isKindOfClass:[UITextField class]]
+        || [view isKindOfClass:[UITextView class]]
+        || [view isKindOfClass:[UILabel class]]) {
+        NSString *value = [view valueForKey:@"text"];
+        if (value != nil) {
+            return [self condition:value];
+        }
+    } else if ([view isKindOfClass:[UIImageView class]]) {
+        UIImage *image = [view valueForKey:@"image"];
+        if (image != nil) {
+            return [self condition:image];
+        }
     }
 
     return NO;
 }
 
-- (BOOL)condition:(NSString *)value {
+- (BOOL)condition:(id)value {
     return NO;
 }
 
